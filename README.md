@@ -16,4 +16,10 @@ With this step the programs are ready to be executed.
 > 🚨 The software is ready to be executed in linux. Necessary to have installed `python3` and `ROOT` [^footnote2].
 [^footnote2]: See documentation of how to install ROOT [here](https://root.cern/install/).
 
-## Content
+## Content and how to run each script
+The name of each file is self-explanatory. Each one contains its complete description inside.
+The main program is `CRoot.C`, which creates a tree from the data and allows the rest of the ROOT scripts to handle the data faster. Each program must read a file with extension `.root`, which is the tree.
+
+The `.C` programs must be loaded inside a ROOT sesion, with the `.L` command. Then the program is executed by typing its name (which is indicated inside the code).
+
+The `.py` programs are ready to be executed in spyder or in a terminal with `python3`.
